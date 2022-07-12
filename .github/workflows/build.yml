@@ -1,15 +1,7 @@
 name: C/C++ CI
 
 on:
-    workflow_dispatch:
-    branches: [master]
-    paths-ignore:
-      - '**.md'
-
-  pull_request:
-    types: [opened, reopened, synchronize]
-  release:
-    types: [published]
+ workflow_dispatch:
 
 jobs:
   windows:
